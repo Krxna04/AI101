@@ -1,16 +1,9 @@
 # Credit Card Fraud Detection
-> Classifies credit card transactions as legitimate or fraudulent on an imbalanced dataset using Python (pandas, scikit-learn, seaborn).
-
----
-
+> Classifies credit card transactions as legitimate or fraudulent on an imbalanced dataset
 ## Team & Roles
 | Member Name | Entry No. | Role | GitHub Handle |
 | :--- | :--- | :--- | :--- |
-| [Your Name] | [Your Entry No.] | Documentation Lead | @[your-handle] |
-| [Teammate 1] | [Entry No.] | Run & Reproducibility Lead | @[handle-1] |
-| [Teammate 2] | [Entry No.] | PPT Lead | @[handle-2] |
-| [Teammate 3] | [Entry No.] | Video Lead | @[handle-3] |
-
----
-
-## Project Structure
+| Ravicharan | 2026ESB1479 | Documentation Lead | @Ravicharan02 |
+| Krishna | 2026EEB1368 | Execution Lead | @Krxna04 |
+| Roshini | 2026MCB1578 | PPT Lead | @rose-2030 |
+| Sidhart | 2026AIB1093 | Video Lead | @ravansidharth-cpu |
