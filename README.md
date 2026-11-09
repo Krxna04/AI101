@@ -1,5 +1,5 @@
 # Credit Card Fraud Detection
-> Classifies credit card transactions as legitimate or fraudulent on an imbalanced dataset
+Classifies credit card transactions as legitimate or fraudulent on an imbalanced dataset
 ## Team & Roles
 | Member Name | Entry No. | Role | GitHub Handle |
 | :--- | :--- | :--- | :--- |
