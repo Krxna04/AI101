@@ -1,7 +1,8 @@
-Libraries:
-panda
+The libraries required is:
 numpy
-scikit-learn
-matplotlib
+panda
+matplot
 seaborn
+scikit-learn
+jupyter
 joblib
