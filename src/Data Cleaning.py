@@ -41,4 +41,39 @@ def analyse_transactions(df):
     print("\nClass Distribution:")
     print(df["Class"].value_counts())
 
+   def plot_class_distribution(df):
+
+    sns.countplot(data=df, x="Class")
+
+    plt.title("Fraud vs Legitimate Transactions")
+    plt.xlabel("Transaction Class")
+    plt.ylabel("Count")
+
+    plt.savefig(
+        "results/plots/class_distribution.png"
+    )
+
+    plt.close()
+
+
+def plot_correlation(df):
+
+    correlation = df.corr(numeric_only=True)
+
+    plt.figure(figsize=(15, 12))
+
+    sns.heatmap(
+        correlation,
+        cmap="coolwarm",
+        center=0
+    )
+
+    plt.title("Feature Correlation Heatmap")
+
+    plt.savefig(
+        "results/plots/correlation_heatmap.png"
+    )
+
+    plt.close()
+
 
