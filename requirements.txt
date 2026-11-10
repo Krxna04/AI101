@@ -3,3 +3,6 @@ numpy
 panda
 matplot
 seaborn
+scikit-learn
+jupyter
+joblib
