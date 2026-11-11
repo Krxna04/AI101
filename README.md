@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection Using Logistic Regression
 
 ![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-IIT_RPR-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 Classifies credit card transactions as legitimate (`0`) or fraudulent (`1`) on an imbalanced dataset using Logistic Regression and Python (`pandas`, `scikit-learn`, `seaborn`, `imbalanced-learn`).
