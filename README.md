@@ -65,7 +65,7 @@ This project uses machine learning techniques to analyze transaction patterns an
 
 ## 5. Technologies Used
 
-* Python 3.10 / 3.11
+* Python 3.14
 * Jupyter Notebook
 * Pandas & NumPy
 * Scikit-learn
@@ -149,4 +149,37 @@ AI101/
 | **`requirements.txt`** | Lists all required Python dependencies and package versions. |
 | **`README.md`** | Main repository documentation containing project details, setup, and team roles. |
 | **`.gitignore`** | Specifies untracked files (e.g., dataset files, virtual environments) to ignore in Git. |
-| [**`Credit Card Fraud Detection.pdf`**](https://github.com/Krxna04/AI101/blob/ae76f384b7df9bc6bb31ab3e66063bd2b2c1e77b/Credit%20Card%20Fraud%20Detection.pdf)| Overview of the problem statement, methology, model evualtion and key learning from this miniproject| 
+
+---
+## 10. Installation and Setup
+
+### Step 1: Clone the repository
+```bash 
+git clone https://github.com/Krxna04/AI101.git
+```
+### Step 2: Navigate to the project directory
+```
+cd AI101
+```
+### Step 3: Create and activate a virtual environment
+```
+python -m venv venv
+```
+# On Windows:
+venv\Scripts\activate
+```
+# On macOS/Linux:
+source venv/bin/activate
+```
+### Step 4: Install the required libraries
+```
+pip install -r requirements.txt
+```
+### Step 5: Download the dataset
+```
+Download creditcard.csv from Kaggle and place it inside the data/ directory:
+AI101/data/readme.txt
+```
+---
+
+
