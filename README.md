@@ -1,38 +1,149 @@
-# Credit Card Fraud Detection
-Classifies credit card transactions as legitimate or fraudulent on an imbalanced dataset
+# Credit Card Fraud Detection Using Logistic Regression
+
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Classifies credit card transactions as legitimate (`0`) or fraudulent (`1`) on an imbalanced dataset using Logistic Regression and Python (`pandas`, `scikit-learn`, `seaborn`, `imbalanced-learn`).
+
+---
+
 ## Team & Roles
+
 | Member Name | Entry No. | Role | GitHub Handle |
 | :--- | :--- | :--- | :--- |
-| Ravicharan | 2026ESB1479 | Documentation Lead | @Ravicharan02 |
-| Krishna | 2026EEB1368 | Execution Lead | @Krxna04 |
-| Roshini | 2026MCB1578 | PPT Lead | @rose-2030 |
-| Sidhart | 2026AIB1093 | Video Lead | @ravansidharth-cpu |
+| **Ravicharan** | `2026ESB1479` | Documentation Lead | [@Ravicharan02](https://github.com/Ravicharan02) |
+| **Krishna** | `2026EEB1368` | Execution Lead | [@Krxna04](https://github.com/Krxna04) |
+| **Roshini** | `2026MCB1578` | PPT Lead | [@rose-2030](https://github.com/rose-2030) |
+| **Sidhart** | `2026AIB1093` | Video Lead | [@ravansidharth-cpu](https://github.com/ravansidharth-cpu) |
 
-# Problem Statement
+---
 
-## Dataset
-Download the dataset from: https://drive.google.com/file/d/1b9xTdSKxqzYJs0oZdkxZMsxCiqnZocSU/view?usp=drivesdk
+## 1. Project Description
 
-# Project Workflow
-The project follows these steps:
-<br>Dataset collection and loading.
-<br>Data exploration and statistical analysis.
-<br>Exploratory Data Analysis (EDA).
-<br>Data preprocessing.
-<br>Feature scaling for Time and Amount.
-<br>Splitting the dataset into training and testing sets.
-<br>Training the Logistic Regression model.
-<br>Predicting transaction classes.
-<br>Evaluating model performance.
-<br>Visualizing the evaluation results.
+Credit Card Fraud Detection is a machine learning project that aims to identify fraudulent credit card transactions using **Logistic Regression**.
 
-# How to Run the Project
+The project uses transaction data to classify each transaction into one of two categories:
+* **0** – Legitimate Transaction
+* **1** – Fraudulent Transaction
+
+The main objective is to build a machine learning model that can detect fraudulent transactions accurately while minimizing incorrect predictions.
+
+---
+
+## 2. Problem Statement
+
+Credit card fraud is a major concern in digital financial transactions. Detecting fraudulent transactions is challenging because fraudulent transactions represent only a very small portion of all transactions (~0.17%).
+
+This project uses machine learning techniques to analyze transaction patterns and identify potentially fraudulent activities.
+
+---
+
+## 3. Objectives
+
+* To analyze and understand the credit card transaction dataset.
+* To perform Exploratory Data Analysis (EDA).
+* To preprocess and prepare the data for machine learning.
+* To handle the class imbalance present in the dataset.
+* To train a Logistic Regression classification model.
+* To evaluate the model using appropriate performance metrics.
+* To identify fraudulent transactions effectively.
+
+---
+
+## 4. Dataset
+
+* **Dataset Name:** Credit Card Fraud Detection Dataset
+* **Source:** [Kaggle - Credit Fraud: Dealing with Imbalanced Datasets](https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets/notebook)
+* **File Name:** `creditcard.csv`
+* **Target Column:** `Class` (`0` = Normal transaction, `1` = Fraudulent transaction)
+* **Features:** Contains `Time`, `Amount`, and anonymized numerical features (`V1`–`V28`).
+
+> **Note:** The dataset is not included in this repository because of its large file size. Download `creditcard.csv` from Kaggle and place it inside the `data/` directory before running the scripts.
+
+---
+
+## 5. Technologies Used
+
+* Python 3.10 / 3.11
+* Jupyter Notebook
+* Pandas & NumPy
+* Scikit-learn
+* Matplotlib & Seaborn
+* Git and GitHub
+
+---
+
+## 6. Machine Learning Algorithm
+
+**Logistic Regression**
+
+Logistic Regression is a supervised machine learning algorithm used for binary classification. In this project, it is used to classify credit card transactions as legitimate or fraudulent. Class balancing techniques (e.g., undersampling / SMOTE) are applied to address the severe imbalance between classes.
+
+---
+
+## 7. Project Workflow
+
+1. Dataset collection and loading.
+2. Data exploration and statistical analysis.
+3. Exploratory Data Analysis (EDA).
+4. Data preprocessing and feature scaling (`Time` and `Amount`).
+5. Splitting the dataset into training and testing sets.
+6. Training the Logistic Regression model.
+7. Predicting transaction classes.
+8. Evaluating model performance.
+9. Visualizing and exporting evaluation results into `outputs/` or `results/plots/`.
+
+---
+## 8. How to Run the Project
 
 Using Jupyter Notebook
-<br>Open the project directory in VS Code or Jupyter Notebook.
-<br>Download the dataset from the given drive link above and save it in the same folder of the cloned repository.
-<br>Open notebooks/fraud_detection.ipynb.
-<br>Make sure the dataset path is correct.
-<br>Select the appropriate Python kernel.
-<br>Run all cells sequentially.
-<br>Observe the model training, predictions, and evaluation results.
+1. Open the project directory in VS Code or Jupyter Notebook.
+2. Download the dataset from the given drive link above and save it in the same folder of the cloned repository.
+3. Open notebooks/fraud_detection.ipynb.
+4. Make sure the dataset path is correct.
+5. Select the appropriate Python kernel.
+6. Run all cells sequentially.
+7. Observe the model training, predictions, and evaluation results.
+--- 
+
+## 9. Model Evaluation
+
+The model is evaluated using the following performance metrics:
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* ROC-AUC Score
+
+---
+
+## 10. Project Structure
+
+```text
+AI101/
+├── data/                      # Dataset folder
+│   └── README.txt             # Instructions to download creditcard.csv
+├── outputs/                   # Saved visual figures and generated outputs
+│   └── placeholder
+├── src/                       # Source scripts and notebooks
+│   ├── data_exploration.ipynb # EDA notebook
+│   ├── evaluation.ipynb       # Model evaluation notebook
+│   ├── main.py                # Main pipeline entry point
+│   ├── model_training.ipynb   # Model training notebook
+│   └── preprocessing.ipynb    # Preprocessing notebook
+├── .gitignore                 # Git ignore file
+├── README.md                  # Main project documentation
+└── requirements.txt           # Pinned dependencies
+```
+## 📂 Folder Descriptions
+
+| Folder / File | Description |
+| :--- | :--- |
+| **`data/`** | Contains dataset location setup and `README.txt` instructions to download `creditcard.csv`. |
+| **`outputs/`** | Stores generated plots, confusion matrices, and model evaluation charts. |
+| **`src/`** | Contains Python pipeline scripts (`main.py`) and exploratory analysis Jupyter Notebooks. |
+| **`requirements.txt`** | Lists all required Python dependencies and package versions. |
+| **`README.md`** | Main repository documentation containing project details, setup, and team roles. |
+| **`.gitignore`** | Specifies untracked files (e.g., dataset files, virtual environments) to ignore in Git. |
