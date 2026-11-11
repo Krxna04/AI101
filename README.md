@@ -25,3 +25,14 @@ The project follows these steps:
 <br>Predicting transaction classes.
 <br>Evaluating model performance.
 <br>Visualizing the evaluation results.
+
+# How to Run the Project
+
+Using Jupyter Notebook
+<br>Open the project directory in VS Code or Jupyter Notebook.
+<br>Download the dataset from the given drive link above and save it in the same folder of the cloned repository.
+<br>Open notebooks/fraud_detection.ipynb.
+<br>Make sure the dataset path is correct.
+<br>Select the appropriate Python kernel.
+<br>Run all cells sequentially.
+<br>Observe the model training, predictions, and evaluation results.
