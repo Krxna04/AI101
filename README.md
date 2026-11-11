@@ -71,7 +71,8 @@ This project uses machine learning techniques to analyze transaction patterns an
 * Scikit-learn
 * Matplotlib & Seaborn
 * Git and GitHub
-
+* nbformat
+* os library
 ---
 
 ## 6. Machine Learning Algorithm
@@ -99,12 +100,13 @@ Logistic Regression is a supervised machine learning algorithm used for binary c
 
 Using Jupyter Notebook
 1. Open the project directory in VS Code or Jupyter Notebook.
-2. Download the dataset from the given drive link above and save it in the same folder of the cloned repository.
-3. Open notebooks/fraud_detection.ipynb.
-4. Make sure the dataset path is correct.
-5. Select the appropriate Python kernel.
-6. Run all cells sequentially.
-7. Observe the model training, predictions, and evaluation results.
+2. Download the dataset from the given drive link in the data folder and save it in the same folder of the cloned repository.
+3. Open the src folder
+4. Open fraud_detection.ipynb.
+5. Make sure the dataset path is correct.
+6. Select the Python kernel.
+7. Run all cells sequentially.
+8. Observe the model training, predictions, and evaluation results.
 --- 
 
 ## 9. Model Evaluation
