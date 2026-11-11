@@ -14,16 +14,14 @@ Classifies credit card transactions as legitimate or fraudulent on an imbalanced
 Download the dataset from: https://drive.google.com/file/d/1b9xTdSKxqzYJs0oZdkxZMsxCiqnZocSU/view?usp=drivesdk
 
 # Project Workflow
-*The project follows these steps:
-*Dataset collection and loading.
-*Data exploration and statistical analysis.
-*Exploratory Data Analysis (EDA).
-*Data preprocessing.
-*Feature scaling for Time and Amount.
-*Splitting the dataset into training and testing sets.
-*Training the Logistic Regression model.
-*Predicting transaction classes.
-
-Evaluating model performance.
-
-Visualizing the evaluation results.
+<br>The project follows these steps:
+<br>Dataset collection and loading.
+<br>Data exploration and statistical analysis.
+<br>Exploratory Data Analysis (EDA).
+<br>Data preprocessing.
+<br>Feature scaling for Time and Amount.
+<br>Splitting the dataset into training and testing sets.
+<br>Training the Logistic Regression model.
+<br>Predicting transaction classes.
+<br>Evaluating model performance.
+<br>Visualizing the evaluation results.
