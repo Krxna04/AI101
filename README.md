@@ -8,7 +8,7 @@ Classifies credit card transactions as legitimate or fraudulent on an imbalanced
 | Roshini | 2026MCB1578 | PPT Lead | @rose-2030 |
 | Sidhart | 2026AIB1093 | Video Lead | @ravansidharth-cpu |
 
-## Problem Statement
+# Problem Statement
 
-# Dataset
+## Dataset
 Download the dataset from: https://drive.google.com/file/d/1b9xTdSKxqzYJs0oZdkxZMsxCiqnZocSU/view?usp=drivesdk
