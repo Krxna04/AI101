@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Using Logistic Regression
 
-![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![License](https://img.shields.io/badge/License-IIT_RPR-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
