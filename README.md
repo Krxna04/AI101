@@ -14,7 +14,7 @@ Classifies credit card transactions as legitimate or fraudulent on an imbalanced
 Download the dataset from: https://drive.google.com/file/d/1b9xTdSKxqzYJs0oZdkxZMsxCiqnZocSU/view?usp=drivesdk
 
 # Project Workflow
-<br>The project follows these steps:
+The project follows these steps:
 <br>Dataset collection and loading.
 <br>Data exploration and statistical analysis.
 <br>Exploratory Data Analysis (EDA).
