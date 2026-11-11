@@ -8,9 +8,9 @@ pandas==2.2.3
 matplotlib==3.10.1
 seaborn==0.13.2
 
-# Machine Learning and Model Persistence
+# Machine Learning and Model
 scikit-learn==1.6.1
 joblib==1.4.2
 
-# Interactive Development Environment
+# Development Environment
 jupyter==1.1.1
