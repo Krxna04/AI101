@@ -1,8 +1,16 @@
-The libraries required is:
-numpy
-panda
-matplot
-seaborn
-scikit-learn
-jupyter
-joblib
+# The libraries required are:-
+
+# Data Processing and Numerical Operations
+numpy==2.2.3
+pandas==2.2.3
+
+# Data Visualization and Plotting
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Machine Learning and Model Persistence
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# Interactive Development Environment
+jupyter==1.1.1
