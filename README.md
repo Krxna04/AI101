@@ -149,7 +149,7 @@ AI101/
 | **`requirements.txt`** | Lists all required Python dependencies and package versions. |
 | **`README.md`** | Main repository documentation containing project details, setup, and team roles. |
 | **`.gitignore`** | Specifies untracked files (e.g., dataset files, virtual environments) to ignore in Git. |
-| [**`Credit Card Fraud Detection.pdf`**](https://github.com/Krxna04/AI101/blob/86404c738293ff1fabaf65538452d557c9353adc/Credit%20Card%20Fraud%20Detection.pdf) |  Oversion of the problem statement, methodology, model evaluation, and key learnings from this miniproject.|
+| [**`Credit Card Fraud Detection.pdf`**](https://github.com/Krxna04/AI101/blob/86404c738293ff1fabaf65538452d557c9353adc/Credit%20Card%20Fraud%20Detection.pdf) |  Overview of the problem statement, methodology, model evaluation, and key learnings from this miniproject.|
 
 ---
 ## 10. Installation and Setup
