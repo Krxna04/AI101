@@ -160,7 +160,7 @@ AI101/
 | **`.gitignore`** | Specifies untracked files (e.g., dataset files, virtual environments) to ignore in Git. |
 ---
 
-## 9. Installation and Setup
+## 11. Installation and Setup
 
 ### Step 1: Clone the repository
 ```bash
@@ -196,7 +196,7 @@ AI101/data/creditcard.csv
 
 ---
 
-## 10. How to Run the Project
+## 12. How to Run the Project
 
 ### Option 1: Running the Complete Pipeline Notebook
 1. Open the repository in VS Code or launch Jupyter Notebook (`jupyter notebook`).
@@ -214,7 +214,7 @@ Run the individual notebooks inside `src/` in sequential order:
 
 ---
 
-## 11. Expected Output & Results
+## 13. Expected Output & Results
 
 Running the notebooks executes data preprocessing, trains the Logistic Regression classifier, prints evaluation metrics in the output console, and exports exploratory and evaluation charts into `outputs/graphs/`.
 
@@ -273,14 +273,14 @@ Correlation matrix across `Time`, `Amount`, PCA components (`V1`–`V28`), and t
 
 ---
 
-## 12. Deliverables & Links
+## 14. Deliverables & Links
 
-* **Presentation Slides (5 Slides):** [View Presentation PDF]([Credit%20Card%20Fraud%20Detection_Team@%2043.pdf])
+* **Presentation Slides (5 Slides):** [View Presentation PDF]([docs/Credit%20Card%20Fraud%20Detection_Team@%2043.pdf])
 * **Video Demonstration (≤ 5 mins):** [Watch Demo Video]()
 
 ---
 
-## 13. AI-Use Disclosure
+## 15. AI-Use Disclosure
 
 * **Generative AI Tools Used:** ChatGPT & Gemini
 * **Scope of Usage:** Assisted in conceptual clarification, debugging Python import statements, and structuring documentation.
