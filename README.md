@@ -106,7 +106,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 2: Run Using Jupyter Notebook
-1. Download the dataset from the Google Drive link provided inside the `data/` folder and save `creditcard.csv` inside the `data/` directory of your cloned repository.
+1. Download the dataset from the Google Drive link provided inside the `data/` folder and save `creditcard.csv` inside the `src` and `sub folder` directory of your cloned repository.
 2. Open the cloned `AI101` project directory in VS Code or Jupyter Notebook.
 3. Open the `src/` folder.
 4. Open **`fraud_detection.ipynb`**.
