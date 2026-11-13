@@ -203,7 +203,7 @@ AI101/data/creditcard.csv
 
 ---
 
-## 12. How to Run the Project
+## 12. How to Run the Jupyter Notebooks
 
 ### Option 1: Running the Complete Pipeline Notebook
 1. Open the repository in VS Code or launch Jupyter Notebook (`jupyter notebook`).
