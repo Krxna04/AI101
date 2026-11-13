@@ -98,11 +98,18 @@ Logistic Regression is a supervised machine learning algorithm used for binary c
 ---
 ## 8. How to Run the Project
 
-Using Jupyter Notebook
-1. Open the project directory in VS Code or Jupyter Notebook.
-2. Download the dataset from the given drive link in the data folder and save it in the same folder of the cloned repository.
-3. Open the src folder
-4. Open fraud_detection.ipynb.
+### Step 1: Clone the Repository & Install Dependencies
+```bash
+git clone [https://github.com/Krxna04/AI101.git](https://github.com/Krxna04/AI101.git)
+cd AI101
+pip install -r requirements.txt
+```
+
+### Step 2: Run Using Jupyter Notebook
+1. Download the dataset from the Google Drive link provided inside the `data/` folder and save `creditcard.csv` inside the `data/` directory of your cloned repository.
+2. Open the cloned `AI101` project directory in VS Code or Jupyter Notebook.
+3. Open the `src/` folder.
+4. Open **`fraud_detection.ipynb`**.
 5. Make sure the dataset path is correct.
 6. Select the Python kernel.
 7. Run all cells sequentially.
