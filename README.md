@@ -171,7 +171,7 @@ AI101/
 
 ### Step 1: Clone the repository
 ```bash
-git clone [https://github.com/Krxna04/AI101.git](https://github.com/Krxna04/AI101.git)
+git clone (https://github.com/Krxna04/AI101.git)
 ```
 
 ### Step 2: Navigate to the project directory
