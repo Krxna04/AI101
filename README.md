@@ -276,6 +276,7 @@ Correlation matrix across `Time`, `Amount`, PCA components (`V1`–`V28`), and t
 ## 14. Deliverables & Links
 
 * **Presentation Slides:** [View Presentation PDF](docs/Credit%20Card%20Fraud%20Detection_Team%2043.pdf)
+* **Presentation Slides Google drive (Incase the file does not render on Github):** [View presentation PDF](https://drive.google.com/file/d/13ypC36GMR2nqNeZ4ezZNyWUnopXg8U2v/view?usp=sharing)
 * **Video Demonstration:** [Click here to watch Demo Video](https://drive.google.com/file/d/1Vrd3OgIZHvUhb0mu-1l7AH41KlRc0fgp/view?usp=sharing)
 
 ---
