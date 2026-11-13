@@ -100,7 +100,7 @@ Logistic Regression is a supervised machine learning algorithm used for binary c
 
 ### Step 1: Clone the Repository & Install Dependencies
 ```bash
-git clone [https://github.com/Krxna04/AI101.git](https://github.com/Krxna04/AI101.git)
+git clone (https://github.com/Krxna04/AI101.git)
 cd AI101
 pip install -r requirements.txt
 ```
