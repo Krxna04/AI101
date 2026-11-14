@@ -229,10 +229,10 @@ Running the notebooks executes data preprocessing, trains the Logistic Regressio
 
 | Metric | Score |
 | :--- | :--- |
-| **Accuracy** | `0.9755` (97.55%)[cite: 4, 11] |
-| **Precision** | `0.0610` (6.10%)[cite: 4, 11] |
-| **Recall** | `0.9184` (91.84%)[cite: 4, 11] |
-| **F1 Score** | `0.1144` (11.44%)[cite: 4, 11] |
+| **Accuracy** | `0.9755` (97.55%) |
+| **Precision** | `0.0610` (6.10%) |
+| **Recall** | `0.9184` (91.84%) |
+| **F1 Score** | `0.1144` (11.44%) |
 
 #### Execution Console Screenshot:
 ![Terminal Execution Output](outputs/graphs/terminal_evaluaton.png).
@@ -258,7 +258,7 @@ Visualizing the extreme class imbalance (`284,315` legitimate vs `492` fraudulen
 
 | Genuine vs Fraud Distribution | Legitimate vs Fraudulent Transactions |
 | :---: | :---: |
-| ![Class Distribution](outputs/graphs/class_distribution.png)[cite: 16, 17] | ![Legitimate vs Fraud Distribution](outputs/graphs/legitimate_vs_fraud_distribution.png)|
+| ![Class Distribution](outputs/graphs/class_distribution.png) | ![Legitimate vs Fraud Distribution](outputs/graphs/legitimate_vs_fraud_distribution.png)|
 
 #### 2. Feature Correlation Heatmap
 Correlation matrix across `Time`, `Amount`, PCA components (`V1`–`V28`), and target `Class`:
